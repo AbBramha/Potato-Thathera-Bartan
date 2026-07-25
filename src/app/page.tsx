@@ -227,9 +227,14 @@ export default function Home() {
                  Chawal se bani Meethi Kheer Potato<br/>
                  Thatera Bartan me Khaaiye
                </p>
-               <button className="bg-[#2c2c2c] text-white px-8 py-2 rounded-full font-bold hover:bg-black transition-colors w-max mt-auto">
+               <a 
+                 href="https://superprofile.bio/vp/meethi-kheer"
+                 target="_blank"
+                 rel="noopener noreferrer"
+                 className="bg-[#2c2c2c] text-white px-8 py-2 rounded-full font-bold hover:bg-black transition-colors w-max mt-auto block text-center"
+               >
                  ₹ 599
-               </button>
+               </a>
              </div>
             </div>
 
@@ -243,9 +248,14 @@ export default function Home() {
                  Chawal se bani Dry Fruits Kheer<br/>
                  Potato Thatera Bartan me Khaaiye.
                </p>
-               <button className="bg-[#2c2c2c] text-white px-8 py-2 rounded-full font-bold hover:bg-black transition-colors w-max mt-auto">
+               <a 
+                 href="https://superprofile.bio/vp/dry-fruits-kheer"
+                 target="_blank"
+                 rel="noopener noreferrer"
+                 className="bg-[#2c2c2c] text-white px-8 py-2 rounded-full font-bold hover:bg-black transition-colors w-max mt-auto block text-center"
+               >
                  ₹ 799
-               </button>
+               </a>
                </div>
                {/* Image Card */}
                <div 
