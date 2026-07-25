@@ -20,6 +20,7 @@ const products = [
       "Brass_lota_on_pedestal_2K_202607222151.jpeg"
     ],
     theme: "gold" as const,
+    link: "https://superprofile.bio/vp/thathera-og-lota",
   },
   {
     name: "ठठेरा PEETAL GLASS",
@@ -34,6 +35,7 @@ const products = [
       "Brass glass.jpeg"
     ],
     theme: "copper" as const,
+    link: "https://superprofile.bio/vp/SzDUx1hf",
   },
   {
     name: "ठठेरा KATORI NO. 1",
@@ -47,6 +49,7 @@ const products = [
       "Gemini_Generated_Image_xlycumxlycumxlyc.jpeg"
     ],
     theme: "gold" as const,
+    link: "https://superprofile.bio/vp/8-5ft2oZ",
   },
   {
     name: "ठठेरा TAMBA BOTTLE",
@@ -60,6 +63,7 @@ const products = [
       "Copper_bottle_in_futuristic_tunnel_202607222210.jpeg"
     ],
     theme: "copper" as const,
+    link: "https://superprofile.bio/vp/z_hfofe8",
   },
   {
     name: "ठठेरा TAMBA TUMBLER",
@@ -73,6 +77,7 @@ const products = [
       "Copper_tumbler_VIP_nightclub_ent…_202607222222.jpeg"
     ],
     theme: "copper" as const,
+    link: "https://superprofile.bio/vp/EO_bNE_v",
   },
   {
     name: "ठठेरा MAHARAJA THALI",
@@ -85,6 +90,7 @@ const products = [
       "Luxury_Indian_food_editorial_pho…_202607222223.jpeg"
     ],
     theme: "gold" as const,
+    link: "https://superprofile.bio/vp/bqKbVGB8",
   }
 ];
 
@@ -161,6 +167,7 @@ export default function Home() {
                 description={product.description}
                 images={product.images}
                 theme={product.theme}
+                link={product.link}
               />
             ))}
           </div>

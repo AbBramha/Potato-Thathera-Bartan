@@ -11,9 +11,10 @@ interface ProductCardProps {
   description: string;
   images: string[];
   theme: "gold" | "copper";
+  link?: string;
 }
 
-export default function ProductCard({ name, price, description, images, theme }: ProductCardProps) {
+export default function ProductCard({ name, price, description, images, theme, link }: ProductCardProps) {
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [selectedImage, setSelectedImage] = useState(images[0]);
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -118,9 +119,11 @@ export default function ProductCard({ name, price, description, images, theme }:
           <h3 className="text-3xl font-bold mb-2" style={{ color: themeColor }}>{name}</h3>
           <p className="text-2xl font-bold text-white mb-4">{price}</p>
           <p className="text-sm text-gray-300 mb-8 line-clamp-4">{description}</p>
-          <Link 
-            href="/shop" 
-            className="px-6 py-3 border font-bold tracking-widest uppercase transition-colors mt-auto w-full hover:bg-[var(--color-brand-charcoal)]"
+          <a 
+            href={link || "/shop"} 
+            target={link ? "_blank" : undefined}
+            rel={link ? "noopener noreferrer" : undefined}
+            className="px-6 py-3 border font-bold tracking-widest uppercase transition-colors mt-auto w-full hover:bg-[var(--color-brand-charcoal)] block text-center"
             style={{ 
               borderColor: themeColor, 
               color: themeColor,
@@ -136,7 +139,7 @@ export default function ProductCard({ name, price, description, images, theme }:
             }}
           >
             Get your ठठेरा
-          </Link>
+          </a>
         </div>
       </div>
 
