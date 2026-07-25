@@ -13,7 +13,7 @@ export default function PaymentSuccess() {
           loop 
           muted 
           playsInline
-          className="w-full h-full object-cover opacity-60 mix-blend-luminosity"
+          className="w-full h-full object-cover opacity-60"
         >
           <source src="/videos/Man_placing_copper_vessel_box_202607230924.mp4" type="video/mp4" />
         </video>
