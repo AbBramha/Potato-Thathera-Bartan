@@ -15,7 +15,7 @@ export default function PaymentSuccess() {
           playsInline
           className="w-full h-full object-cover opacity-60 mix-blend-luminosity"
         >
-          <source src="/videos/After payment.mp4" type="video/mp4" />
+          <source src="/videos/Man_placing_copper_vessel_box_202607230924.mp4" type="video/mp4" />
         </video>
         <div className="absolute inset-0 bg-gradient-to-b from-[#0a060b]/80 via-transparent to-[#0a060b]/80" />
       </div>
